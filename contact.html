@@ -1,0 +1,1166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+</head>
+<style>
+  .carousel {
+    margin-top: 65px;
+  }
+
+  .row {
+    margin-top: 15px;
+  }
+
+  .row {
+    margin-top: 30px;
+  }
+
+  p {
+    margin-top: 15px;
+  }
+
+  .row {
+    margin-top: 40px;
+  }
+
+
+  .navbar-dark .navbar-brand {
+    color: green;
+  }
+</style>
+
+<body>
+
+  <header>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand outline-success " href="https://www.icoderonline.com/"><u>icoder</u></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Back</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">contacts</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><b>Search</b></button>
+
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+              data-bs-target="#login-Modal">LOGIN</button>
+
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+              data-bs-target="#signup-Modal"><b>SIGNUP</b></button>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1600x600/?meeting" class="d-block w-100" alt="error">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x600/?contact" class="d-block w-100" alt="error">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x600/?code" class="d-block w-100" alt="error">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+        src="https://source.unsplash.com/140x140/?women" role="img" aria-label="Placeholder: 140x140"
+        preserveAspectRatio="xMidYMid slice" focusable="false">
+      <title>Placeholder</title>
+      <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+      </img>
+
+      <h2 class="fw-normal">saraswat</h2>
+      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
+        column.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div>
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+        src="https://source.unsplash.com/140x140/?people" role="img" aria-label="Placeholder: 140x140"
+        preserveAspectRatio="xMidYMid slice" focusable="false">
+      <title>Placeholder</title>
+      <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+      </img>
+
+      <h2 class="fw-normal">mangeshkar</h2>
+      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div>
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+        src="https://source.unsplash.com/140x140/?person" role="img" aria-label="Placeholder: 140x140"
+        preserveAspectRatio="xMidYMid slice" focusable="false">
+      <title>Placeholder</title>
+      <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+      </img>
+
+      <h2 class="fw-normal">adityanath</h2>
+      <p>And lastly this, the third column of representative placeholder content.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your
+          mind.</span></h2>
+      <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose Lorem,
+        ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt magnam commodi ducimus ad doloribus est
+        harum nobis consequatur delectus explicabo sapiente eum eos, natus beatae obcaecati modi iste, officiis
+        recusandae quam maiores.</here>
+      </p>
+    </div>
+
+    <div class="col-md-5">
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+        src="https://source.unsplash.com/500x500/?code" role="img" aria-label="Placeholder: 500x500"
+        preserveAspectRatio="xMidYMid slice" focusable="false">
+      <title>Placeholder</title>
+      <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+    </div>
+
+  </div>
+  </div>
+  <hr>
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for
+          yourself.</span></h2>
+      <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
+        layout would work with some actual real-world content in place. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Impedit, quis itaque placeat dolores vitae voluptatum reiciendis, blanditiis illum sapiente
+        unde, voluptatibus sed.
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+          data-bs-target="#contact-Modal">CONTACT US</button>
+        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+          data-bs-target="#info-Modal">PURCHASE</button>
+
+        <br>
+        <br>
+
+      <footer class="container1">
+        <p1 class="float-center"><a href="#"><b>BACK TO TOP</b></a></p1>
+      </footer>
+
+      </p>
+    </div>
+
+    <div class="col-md-5 order-md-1">
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+        src="https://source.unsplash.com/500x500/?shopping,mobile" role="img" aria-label="Placeholder: 500x500"
+        preserveAspectRatio="xMidYMid slice" focusable="false">
+      <title>Placeholder</title>
+      <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+      </img>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- <footer class="container1">
+    <p1 class="float-center"><a href="#">BACK TO TOP</a></p1>
+  </footer> -->
+
+  <div class="modal fade" id="login-Modal" tabindex="-1" aria-labelledby="login-ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="login-ModalLabel">Login-page</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+
+          <html lang="en">
+
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+            <meta name="generator" content="Hugo 0.104.2">
+            <title>Signin Template · Bootstrap v5.2</title>
+
+            <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+            <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+              crossorigin="anonymous">
+
+            <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+            <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+            <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+            <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+            <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+            <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+            <meta name="theme-color" content="#712cf9">
+
+            <style>
+              .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+              }
+
+              @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                  font-size: 3.5rem;
+                }
+              }
+
+              .b-example-divider {
+                height: 3rem;
+                background-color: rgba(0, 0, 0, .1);
+                border: solid rgba(0, 0, 0, .15);
+                border-width: 1px 0;
+                box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+              }
+
+              .b-example-vr {
+                flex-shrink: 0;
+                width: 1.5rem;
+                height: 100vh;
+              }
+
+              .bi {
+                vertical-align: -.125em;
+                fill: currentColor;
+              }
+
+              .nav-scroller {
+                position: relative;
+                z-index: 2;
+                height: 2.75rem;
+                overflow-y: hidden;
+              }
+
+              .nav-scroller .nav {
+                display: flex;
+                flex-wrap: nowrap;
+                padding-bottom: 1rem;
+                margin-top: -1px;
+                overflow-x: auto;
+                text-align: center;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+              }
+            </style>
+
+            <link href="signin.css" rel="stylesheet">
+          </head>
+
+          <body class="text-center">
+
+            <main class="form-signin w-100 m-auto">
+              <form>
+                <img class="mb-4" src="https://source.unsplash.com/1600x600/?shopping,mobile" alt="" width="72"
+                  height="57">
+                <h1 class="h3 mb-3 fw-normal">Please login-in</h1>
+
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="checkbox mb-3">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                  </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                <p class="mt-5 mb-3 text-muted">© ALL RIGHT RESERVED</p>
+              </form>
+            </main>
+
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="modal fade" id="signup-Modal" tabindex="-1" aria-labelledby="signup-ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="signup-ModalLabel">signup-page</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+
+          <html lang="en">
+
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+            <meta name="generator" content="Hugo 0.104.2">
+            <title>Signin Template · Bootstrap v5.2</title>
+
+            <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+            <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+              crossorigin="anonymous">
+
+            <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+            <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+            <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+            <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+            <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+            <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+            <meta name="theme-color" content="#712cf9">
+
+            <style>
+              .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+              }
+
+              @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                  font-size: 3.5rem;
+                }
+              }
+
+              .b-example-divider {
+                height: 3rem;
+                background-color: rgba(0, 0, 0, .1);
+                border: solid rgba(0, 0, 0, .15);
+                border-width: 1px 0;
+                box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+              }
+
+              .b-example-vr {
+                flex-shrink: 0;
+                width: 1.5rem;
+                height: 100vh;
+              }
+
+              .bi {
+                vertical-align: -.125em;
+                fill: currentColor;
+              }
+
+              .nav-scroller {
+                position: relative;
+                z-index: 2;
+                height: 2.75rem;
+                overflow-y: hidden;
+              }
+
+              .nav-scroller .nav {
+                display: flex;
+                flex-wrap: nowrap;
+                padding-bottom: 1rem;
+                margin-top: -1px;
+                overflow-x: auto;
+                text-align: center;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+              }
+            </style>
+
+            <link href="signin.css" rel="stylesheet">
+          </head>
+
+          <body class="text-center">
+
+            <main class="form-signin w-100 m-auto">
+              <form>
+                <img class="mb-4" src="https://source.unsplash.com/1600x600/?shopping,mobile" alt="" width="72"
+                  height="57">
+                <h1 class="h3 mb-3 fw-normal">Please sign-in</h1>
+
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="checkbox mb-3">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                  </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                <p class="mt-5 mb-3 text-muted">© ALL RIGHT RESERVED</p>
+              </form>
+            </main>
+
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contact-Modal">
+    CONTACT US
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="contact-Modal" tabindex="-1" aria-labelledby="contact-ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contact-ModalLabel">CONTACT US</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <body class="bg-light">
+
+            <div class="container">
+              <main>
+                <div class="py-5 text-center">
+
+                  <img class="mb-4" src="https://source.unsplash.com/1600x600/?shopping,mobile" alt="" width="72"
+                    height="57">
+                  <h2>Checkout form</h2>
+                  <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, adipisci?
+                    .</p>
+                </div>
+
+                <div class="row g-5">
+                  <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                      <span class="text-primary">company criteria</span>
+                      <span class="badge bg-primary rounded-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">company name</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$12</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Second </h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$8</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Third item</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                          <h6 class="my-0">Promo code</h6>
+                          <small>EXAMPLECODE</small>
+                        </div>
+                        <span class="text-success">−$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (USD)</span>
+                        <strong>$20</strong>
+                      </li>
+                    </ul>
+
+                    <form class="card p-2">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code">
+                        <button type="submit" class="btn btn-secondary">Redeem</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">CONTACT US</h4>
+                    <form class="needs-validation" novalidate="">
+                      <div class="row g-3">
+                        <div class="col-sm-6">
+                          <label for="firstName" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid first name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                          <label for="lastName" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid last name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="username" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback">
+                              Your username is required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                          <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                          <div class="invalid-feedback">
+                            Please enter your info
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address2" class="form-label">Address 2 <span
+                              class="text-muted">(Optional)</span></label>
+                          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+
+                        <div class="col-md-5">
+                          <label for="country" class="form-label">Country</label>
+                          <select class="form-select" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid country.
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <label for="state" class="form-label">State</label>
+                          <select class="form-select" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="zip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="zip" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Zip code required.
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Lorem ipsum dolor sit, amet consectetur
+                          adipisicing elit. Maxime temporibus cupiditate libero corporis, et quod? Commodi debitis,
+                          eaque voluptate veniam facere doloremque.
+                        </label>
+                      </div>
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="save-info">
+                        <label class="form-check-label" for="save-info">Save this information for next time</label>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <h4 class="mb-3">Payment</h4>
+
+                      <div class="my-3">
+                        <div class="form-check">
+                          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked=""
+                            required="">
+                          <label class="form-check-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                      </div>
+
+                      <div class="row gy-3">
+                        <div class="col-md-6">
+                          <label for="cc-name" class="form-label">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                          <small class="text-muted">Full name as displayed on card</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <label for="cc-number" class="form-label">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-expiration" class="form-label">Expiration</label>
+                          <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Expiration date required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-cvv" class="form-label">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Security code required
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                    </form>
+                  </div>
+                </div>
+              </main>
+
+              <footer class="my-5 pt-5 text-muted text-center text-small">
+                <p class="mb-1">© 2017–2021 Company goods</p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#">Privacy</a></li>
+                  <li class="list-inline-item"><a href="#">Terms</a></li>
+                  <li class="list-inline-item"><a href="#">Support</a></li>
+                </ul>
+              </footer>
+            </div>
+
+
+            <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+              crossorigin="anonymous"></script>
+
+            <script src="form-validation.js"></script>
+
+
+          </body>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info-Modal">
+    CONTACT US
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="info-Modal" tabindex="-1" aria-labelledby="info-ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="info-ModalLabel">PURCHASE</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <body>
+
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+              <symbol id="check" viewBox="0 0 16 16">
+                <title>Check</title>
+                <path
+                  d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z">
+                </path>
+              </symbol>
+            </svg>
+
+            <div class="container py-3">
+              <header>
+                <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                  <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <img src="https://source.unsplash.com/1600x600/?code" width="40" height="32" class="me-2"
+                      viewBox="0 0 118 94" role="img">
+                    <title>Bootstrap</title>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                      fill="currentColor"></path>
+                    </img>
+                    <span class="fs-4">Pricing example</span>
+                  </a>
+
+                  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="#">Features</a>
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enterprise</a>
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
+                    <a class="py-2 text-dark text-decoration-none" href="#">Pricing</a>
+                  </nav>
+                </div>
+
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                  <h1 class="display-4 fw-normal">Pricing</h1>
+                  <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with
+                    this Bootstrap example. It’s built with default Bootstrap components and utilities with little
+                    customization.</p>
+                </div>
+              </header>
+
+              <main>
+                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                      <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Free</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>10 users included</li>
+                          <li>2 GB of storage</li>
+                          <li>Email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                      <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>20 users included</li>
+                          <li>10 GB of storage</li>
+                          <li>Priority email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                      <div class="card-header py-3 text-white bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Enterprise</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>30 users included</li>
+                          <li>15 GB of storage</li>
+                          <li>Phone and email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+                <div class="table-responsive">
+                  <table class="table text-center">
+                    <thead>
+                      <tr>
+                        <th style="width: 34%;"></th>
+                        <th style="width: 22%;">Free</th>
+                        <th style="width: 22%;">Pro</th>
+                        <th style="width: 22%;">Enterprise</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="text-start">Public</th>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-start">Private</th>
+                        <td></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                      </tr>
+                    </tbody>
+
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="text-start">Permissions</th>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-start">Sharing</th>
+                        <td></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-start">Unlimited members</th>
+                        <td></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-start">Extra security</th>
+                        <td></td>
+                        <td></td>
+                        <td><svg class="bi" width="24" height="24">
+                            <use xlink:href="#check"></use>
+                          </svg></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </main>
+
+              <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                <div class="row">
+                  <!-- <div class="col-12 col-md">
+                    <img class="mb-2" src="https://source.unsplash.com/1600x600/?bootstrap" alt="" width="24" height="19">
+                    <small class="d-block mb-3 text-muted">© 2017–2021</small>
+                  </div> -->
+                  <!--                   
+                  <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a>
+                      </li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                    </ul> -->
+                </div>
+            </div>
+            </footer>
+        </div>
+
+
+
+</body>
+
+
+</div>
+<div class="modal-footer">
+  <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="SIGNUP-Modal" tabindex="-1" aria-labelledby="SIGNUP-ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="SIGNUP-ModalLabel">Sign-up page</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+        <html lang="en">
+
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="description" content="">
+          <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+          <meta name="generator" content="Hugo 0.104.2">
+          <title>Sign-in page</title>
+
+          <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+
+
+          <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+          <!-- Favicons -->
+          <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+          <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+          <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+          <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+          <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+          <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+          <meta name="theme-color" content="#712cf9">
+
+
+          <style>
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              user-select: none;
+            }
+
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+
+            .b-example-divider {
+              height: 3rem;
+              background-color: rgba(0, 0, 0, .1);
+              border: solid rgba(0, 0, 0, .15);
+              border-width: 1px 0;
+              box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+            }
+
+            .b-example-vr {
+              flex-shrink: 0;
+              width: 1.5rem;
+              height: 100vh;
+            }
+
+            .bi {
+              vertical-align: -.125em;
+              fill: currentColor;
+            }
+
+            .nav-scroller {
+              position: relative;
+              z-index: 2;
+              height: 2.75rem;
+              overflow-y: hidden;
+            }
+
+            .nav-scroller .nav {
+              display: flex;
+              flex-wrap: nowrap;
+              padding-bottom: 1rem;
+              margin-top: -1px;
+              overflow-x: auto;
+              text-align: center;
+              white-space: nowrap;
+              -webkit-overflow-scrolling: touch;
+            }
+          </style>
+
+
+          <!-- Custom styles for this template -->
+          <link href="signin.css" rel="stylesheet">
+        </head>
+
+        <body class="text-center">
+
+          <main class="form-signin w-100 m-auto">
+            <form>
+              <img class="mb-4" src="https://source.unsplash.com/1600x600/?shopping,mobile" alt="" width="72"
+                height="57">
+              <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+              <p class="mt-5 mb-3 text-muted">© ALL RIGHT RESERVED</p>
+            </form>
+          </main>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+
+
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
